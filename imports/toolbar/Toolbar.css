@@ -1,0 +1,78 @@
+.toolbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    background: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    transition: box-shadow 0.3s ease-out;
+}
+
+.toolbar_nav {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.toolbar_logo {
+    margin-left: 1rem;
+}
+
+.toolbar_logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.toolbar_nav-items a {
+    color: white;
+    text-decoration: none;
+}
+
+.AUIW a {
+    color: orange;
+}
+
+.spacer {
+    flex: 1;
+}
+
+.toolbar_nav-items ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_nav-items li {
+    padding: 0.5rem;
+}
+
+.toolbar:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.toolbar_nav-items a:hover,
+.toolbar_nav-items a:active {
+    color: #fa923f;
+}
+
+
+
+@media (max-width: 768px) {
+    .toolbar_nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar_toggle-button {
+        display: none;
+    }
+
+    .toolbar_logo {
+        margin-left: 0;
+    }
+}
