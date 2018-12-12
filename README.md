@@ -4,9 +4,10 @@
 This web application gives possibility to create Your own account and write Your thoughts on a shared board.
 
 ## Installation
-# Linux
+
+### Linux
 	curl https://install.meteor.com/ | sh
-# Windows
+### Windows
 	choco install meteor
 
 ## How to use
